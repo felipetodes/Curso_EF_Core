@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore.Data", "EntityFrameworkCoreData\EntityFrameworkCore.Data.csproj", "{BE8BEC16-A86E-4D18-9AF8-0A2C99B32FEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCare.Domain", "EntityFrameworkCare.Domain\EntityFrameworkCare.Domain.csproj", "{E052B3FA-57F3-4AD9-9BF5-DD4A6FB56938}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE8BEC16-A86E-4D18-9AF8-0A2C99B32FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8BEC16-A86E-4D18-9AF8-0A2C99B32FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8BEC16-A86E-4D18-9AF8-0A2C99B32FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8BEC16-A86E-4D18-9AF8-0A2C99B32FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E052B3FA-57F3-4AD9-9BF5-DD4A6FB56938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E052B3FA-57F3-4AD9-9BF5-DD4A6FB56938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E052B3FA-57F3-4AD9-9BF5-DD4A6FB56938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E052B3FA-57F3-4AD9-9BF5-DD4A6FB56938}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
