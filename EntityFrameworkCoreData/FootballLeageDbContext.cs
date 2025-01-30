@@ -19,7 +19,10 @@ namespace EntityFrameworkCore.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            base.OnConfiguring(optionsBuilder);
+
+            //Usando SLQ Server
+            //    optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=FootballLeage_EfCore; Encrypt=False");
+            optionsBuilder.UseSqlServer($"Data Source=FootballLeage_Efcore.db");
         }
     }
 }
