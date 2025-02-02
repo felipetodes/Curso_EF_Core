@@ -22,7 +22,8 @@ namespace EntityFrameworkCore.Data
 
             //Usando SLQ Server
             //    optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog=FootballLeage_EfCore; Encrypt=False");
-            optionsBuilder.UseSqlServer($"Data Source=FootballLeage_Efcore.db");
+            optionsBuilder.UseSqlite("Data Source=FootballLeage_Efcore.db");
+
         }
     }
 }
