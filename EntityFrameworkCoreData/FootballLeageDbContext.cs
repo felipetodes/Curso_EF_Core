@@ -25,5 +25,17 @@ namespace EntityFrameworkCore.Data
             optionsBuilder.UseSqlite("Data Source=FootballLeage_Efcore.db");
 
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Team>().HasData(
+              new Team 
+              {
+                  TeamId = 1,
+                  Name = "Internacional",
+                  CreatedDate = DateTimeOffset.UtcNow.DateTime
+              }
+                );
+        }
     }
 }
